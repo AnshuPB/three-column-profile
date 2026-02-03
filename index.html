@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Three Column Profile Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Left Column -->
+        <div class="column left">
+
+            <h3 id="displayName">Anshu</h3>
+            <p id="displayBio">Web Development Student</p>
+        </div>
+
+        <!-- Middle Column -->
+        <div class="column middle">
+            <h3>Edit Profile</h3>
+
+            <label>Name:</label>
+            <input type="text" id="nameInput" placeholder="Enter name">
+
+            <label>Bio:</label>
+            <textarea id="bioInput" placeholder="Enter bio"></textarea>
+
+            <button onclick="updateProfile()">Update Profile</button>
+        </div>
+
+        <!-- Right Column -->
+        <div class="column right">
+            <h3>About</h3>
+            <p><strong>Location:</strong> India</p>
+            <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Interests:</strong> Web Development</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
